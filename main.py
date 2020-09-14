@@ -90,7 +90,7 @@ def main():
 			matches.insert_many(match)
 
 			#Match details are also inserted into the database to be retreived for the scorescreen.
-			matchDetails.insert_one(responseMatch)
+			matchDetails.insert_one(matchResponse)
 
 
 		#With the match details, these two lines of code check if the player won.
